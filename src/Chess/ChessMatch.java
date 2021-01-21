@@ -132,7 +132,6 @@ public class ChessMatch {
 
         return newPiece;
     }
-
     private ChessPiece newPiece(String type, Color color) {
         if (type.equals("B")) return new Bishop(board, color);
         if (type.equals("N")) return new Knight(board, color);
