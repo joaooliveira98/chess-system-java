@@ -73,11 +73,12 @@ public class UI {
             System.out.println("Waiting player: " + chessMatch.getCurrentPlayer());
             if (chessMatch.getCheck()) {
                 System.out.println("CHECK!");
-            } else {
+            }
+        }
+            else {
                 System.out.println("CHECKMATE!");
                 System.out.println("Winner: " + chessMatch.getCurrentPlayer());
             }
-        }
     }
 
 
